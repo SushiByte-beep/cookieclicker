@@ -13,3 +13,5 @@ Mirror project for educational purposes, minor changes have been made.
     - Hide Store button leaves more space to see other menus
  
 - Fixed misalignment of the right divider. 
+
+- Removed code related to fb pixel.
