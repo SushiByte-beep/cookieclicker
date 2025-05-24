@@ -3363,6 +3363,19 @@ STOP THE FANCY
 .storeHidden .separatorRight {
     display: none;
 }
+/* Hidden store state */
+.storeHidden #sectionRight {
+    display: none;
+}
 
+.storeHidden #sectionMiddle {
+    right: 16px; /* Expand to fill the space */
+}
+
+/* Keep the separator but move it to the right edge */
+.storeHidden .separatorRight {
+    right: 0px; /* Move to the very right edge */
+    display: block; /* Keep it visible */
+}
 
 /**{overflow:hidden!important;}*/
