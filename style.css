@@ -1,4 +1,4 @@
-﻿/* reset CSS */
+/* reset CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -3331,6 +3331,37 @@ STOP THE FANCY
 {
 	filter:none!important;
 	-webkit-filter:none!important;
+}
+/* Store Toggle Button */
+#toggleStoreButton {
+    border: 1px solid #e2dd48;
+    border-color: #ece2b6 #875526 #733726 #dfbc9a;
+    box-shadow: 0px 0px 1px 2px rgba(0,0,0,0.5), 0px 2px 4px rgba(0,0,0,0.25), 0px 0px 2px 2px #000 inset, 0px 1px 0px 1px rgba(255,255,255,0.5) inset;
+    transition: all 0.2s ease;
+}
+
+#toggleStoreButton:hover {
+    background: rgba(0,0,0,0.9) !important;
+    color: #fff;
+    text-shadow: 0px 0px 8px #fff;
+}
+
+#toggleStoreButton:active {
+    transform: translateX(-50%) translateY(1px);
+    box-shadow: 0px 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 2px rgba(0,0,0,0.25), 0px 0px 2px 2px #000 inset;
+}
+
+/* Hidden store state */
+.storeHidden #sectionRight {
+    display: none;
+}
+
+.storeHidden #sectionMiddle {
+    right: 16px; /* Remove the 318px right margin */
+}
+
+.storeHidden .separatorRight {
+    display: none;
 }
 
 
